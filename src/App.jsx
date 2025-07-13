@@ -1,7 +1,6 @@
 import './App.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Regions from './Pages/Regions'
-import Notfound from './Pages/Notfound';
 import Navbar from './Components/Navbar';
 import Pokedex from './Pages/Pokedex';
 
@@ -17,7 +16,7 @@ function App() {
      
           <Route path="/pokedex" element={<Pokedex />} />
           <Route path="/regiones" element={<Regions />} />
-          <Route path="*" element={<Notfound />} />
+       
         </Routes>
       </div>
     </Router>

@@ -45,7 +45,7 @@ const Navbar = () => {
 
         
       </div>
-      <button>  DARKMODE  </button>
+      <button>    </button>
     </nav>
   )
 }
